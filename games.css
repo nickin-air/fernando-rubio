@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+a {
+    color: #fff;
+}
+
+a:visited{
+    color: rgb(161, 0, 167);
+}
+a:hover{
+    text-decoration: none;
+    color: #5cc3ff;
+}
+
+.main{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 100%;
+    float: left;
+    height: 70px;
+    border-bottom: 2px solid #5cc3ff;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+}
+
+.name{
+    
+    color: #5cc3ff;
+    font-size: 35px;
+    font-family: Arial;
+    margin-left:20px;
+    float: left;
+    padding-top: 13px;
+}
+
+
+.socials a{
+    float:right;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.socials img{
+    display: inline-block;
+    height: 55px;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid #5cc3ff;
+}
+
+.navbar ul{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar ul li:hover{
+    cursor: pointer;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+}
+
+.navbar ul li:hover a{
+    color:#5cc3ff;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:visited{
+    color: #fff;
+}
+
+.game{
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+}
+
+.description img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.description h1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5cc3ff;
+}
+
+.description h4{ /*exclusivo para Sanguinaria*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Uncial Antiqua", system-ui;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5cc3ff;
+}
+
+.description p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.description ul{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+.description a{
+    width: 80%;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    margin-left: 100px;
+}
+
+.description h2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: Arial;
+    color: #fff;
+    font-size: 29px;
+    padding-bottom: 10px;
+    padding-top: 45px;
+    border-bottom: 2px solid #5cc3ff;
+}
+
+.description iframe{
+    width: 70%;
+    margin-left: 165px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.description video{
+    width: 70%;
+    margin-left: 165px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

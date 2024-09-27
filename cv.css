@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+a {
+    color: #fff;
+}
+
+a:visited{
+    color: rgb(161, 0, 167);
+}
+a:hover{
+    text-decoration: none;
+    color: #5cc3ff;
+}
+
+.main{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 100%;
+    float: left;
+    height: 70px;
+    border-bottom: 2px solid #5cc3ff;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+}
+
+.name{
+    
+    color: #5cc3ff;
+    font-size: 35px;
+    font-family: Arial;
+    margin-left:20px;
+    float: left;
+    padding-top: 13px;
+}
+
+.socials a{
+    float:right;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.socials img{
+    display: inline-block;
+    height: 55px;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid #5cc3ff;
+}
+
+.navbar ul{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+ul li:hover{
+    cursor: pointer;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+}
+
+ul li:hover a{
+    color:#5cc3ff;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+ul li a:visited{
+    color: #fff;
+}
+
+.curriculum{
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%);
+}
+
+.curriculum img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+.download img{
+    width: 7%;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-left: 448px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.download a{
+    display: block;
+    margin-left: 20px;
+}
+
+.text{
+    margin-top: 70px;
+}
+
