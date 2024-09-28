@@ -2,6 +2,7 @@
     margin: 0; /*margin para el espacio relativo entre con elementos*/
     padding: 0; /*padding para objetos dentro de cada elemento*/
     font-weight: normal;
+    overflow-x: hidden;
 }
 
 .background{
