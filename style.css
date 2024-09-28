@@ -2,7 +2,14 @@
     margin: 0; /*margin para el espacio relativo entre con elementos*/
     padding: 0; /*padding para objetos dentro de cada elemento*/
     font-weight: normal;
-    overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+    /* Example adjustment */
+    .wide-element {
+        width: 100%;    /* Ensures the element doesn’t exceed the screen size */
+        padding: 0;     /* Adjust padding if necessary */
+    }
 }
 
 .background{
